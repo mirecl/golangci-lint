@@ -21,8 +21,8 @@ type BuildInfo struct {
 }
 
 func (b BuildInfo) String() string {
-	return fmt.Sprintf("golangci-lint has version %s+(%s) built with %s",
-		b.Version, b.LambdaVersion, b.GoVersion)
+	return fmt.Sprintf("golangci-lint has version %s built with %s (%s)",
+		b.Version, b.GoVersion, b.LambdaVersion)
 }
 
 type versionOptions struct {
