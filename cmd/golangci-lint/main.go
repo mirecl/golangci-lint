@@ -14,7 +14,7 @@ var (
 	goVersion = "unknown"
 
 	// Populated by goreleaser during build
-	version = "unknown"
+	version = "1.64.8"
 	commit  = "?"
 	date    = ""
 )
@@ -47,7 +47,7 @@ func createBuildInfo() commands.BuildInfo {
 		return info
 	}
 
-	info.Version = fmt.Sprintf("%s+lambda", buildInfo.Main.Version)
+	info.LambdaVersion = buildInfo.Main.Version
 
 	var revision string
 	var modified string

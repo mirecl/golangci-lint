@@ -12,16 +12,17 @@ import (
 )
 
 type BuildInfo struct {
-	GoVersion string           `json:"goVersion"`
-	Version   string           `json:"version"`
-	Commit    string           `json:"commit"`
-	Date      string           `json:"date"`
-	BuildInfo *debug.BuildInfo `json:"buildInfo,omitempty"`
+	GoVersion     string           `json:"goVersion"`
+	LambdaVersion string           `json:"lambdaVersion"`
+	Version       string           `json:"version"`
+	Commit        string           `json:"commit"`
+	Date          string           `json:"date"`
+	BuildInfo     *debug.BuildInfo `json:"buildInfo,omitempty"`
 }
 
 func (b BuildInfo) String() string {
-	return fmt.Sprintf("golangci-lint has version %s built with %s from %s on %s",
-		b.Version, b.GoVersion, b.Commit, b.Date)
+	return fmt.Sprintf("golangci-lint has version %s+lambda%s built with %s",
+		b.Version, b.LambdaVersion, b.GoVersion)
 }
 
 type versionOptions struct {
