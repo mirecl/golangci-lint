@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/golangci/golangci-lint/v2/pkg/fsutils"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/mirecl/golangci-lint/v2/pkg/fsutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/result"
 )
 
 var _ Processor = (*PathShortener)(nil)

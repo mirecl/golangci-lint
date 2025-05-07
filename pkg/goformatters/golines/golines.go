@@ -3,7 +3,7 @@ package golines
 import (
 	"github.com/golangci/golines"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
 )
 
 const Name = "golines"

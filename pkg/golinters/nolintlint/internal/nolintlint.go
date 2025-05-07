@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/mirecl/golangci-lint/v2/pkg/goanalysis"
+	"github.com/mirecl/golangci-lint/v2/pkg/result"
 )
 
 const LinterName = "nolintlint"

@@ -8,9 +8,9 @@ import (
 	"github.com/daixiang0/gci/pkg/log"
 	"github.com/ldez/grignotin/gomod"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	gcicfgi "github.com/golangci/golangci-lint/v2/pkg/goformatters/gci/internal/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters/internal"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	gcicfgi "github.com/mirecl/golangci-lint/v2/pkg/goformatters/gci/internal/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters/internal"
 )
 
 const Name = "gci"

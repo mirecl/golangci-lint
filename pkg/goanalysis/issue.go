@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/mirecl/golangci-lint/v2/pkg/result"
 )
 
 type Issue struct {

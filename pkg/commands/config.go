@@ -10,10 +10,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/v2/pkg/fsutils"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/exitcodes"
+	"github.com/mirecl/golangci-lint/v2/pkg/fsutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/logutils"
 )
 
 type pathOptions struct {

@@ -6,13 +6,13 @@ import (
 	"go/format"
 	"slices"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters/gci"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters/gofmt"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters/gofumpt"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters/goimports"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters/golines"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters/gci"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters/gofmt"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters/gofumpt"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters/goimports"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters/golines"
+	"github.com/mirecl/golangci-lint/v2/pkg/logutils"
 )
 
 type MetaFormatter struct {

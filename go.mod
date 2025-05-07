@@ -1,4 +1,4 @@
-module github.com/golangci/golangci-lint/v2
+module github.com/mirecl/golangci-lint/v2
 
 go 1.23.0
 

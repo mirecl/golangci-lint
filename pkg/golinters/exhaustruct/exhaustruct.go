@@ -4,9 +4,9 @@ import (
 	"github.com/GaijinEntertainment/go-exhaustruct/v3/analyzer"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
-	"github.com/golangci/golangci-lint/v2/pkg/golinters/internal"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/goanalysis"
+	"github.com/mirecl/golangci-lint/v2/pkg/golinters/internal"
 )
 
 func New(settings *config.ExhaustructSettings) *goanalysis.Linter {

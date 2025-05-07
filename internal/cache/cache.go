@@ -14,9 +14,9 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/v2/internal/go/cache"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/timeutils"
+	"github.com/mirecl/golangci-lint/v2/internal/go/cache"
+	"github.com/mirecl/golangci-lint/v2/pkg/logutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/timeutils"
 )
 
 type HashMode int

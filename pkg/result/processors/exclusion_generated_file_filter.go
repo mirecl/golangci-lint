@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/logutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/result"
 )
 
 var _ Processor = (*GeneratedFileFilter)(nil)

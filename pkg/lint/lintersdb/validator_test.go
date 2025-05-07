@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
 )
 
 type validateErrorTestCase struct {

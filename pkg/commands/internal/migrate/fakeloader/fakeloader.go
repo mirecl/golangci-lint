@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-viper/mapstructure/v2"
 
-	"github.com/golangci/golangci-lint/v2/pkg/commands/internal/migrate/parser"
-	"github.com/golangci/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/commands/internal/migrate/parser"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
 )
 
 // Load is used to keep case of configuration.

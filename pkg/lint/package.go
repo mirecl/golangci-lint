@@ -14,12 +14,12 @@ import (
 	"github.com/ldez/grignotin/goenv"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis/load"
-	"github.com/golangci/golangci-lint/v2/pkg/goutil"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/exitcodes"
+	"github.com/mirecl/golangci-lint/v2/pkg/goanalysis/load"
+	"github.com/mirecl/golangci-lint/v2/pkg/goutil"
+	"github.com/mirecl/golangci-lint/v2/pkg/lint/linter"
+	"github.com/mirecl/golangci-lint/v2/pkg/logutils"
 )
 
 // PackageLoader loads packages based on [golang.org/x/tools/go/packages.Load].

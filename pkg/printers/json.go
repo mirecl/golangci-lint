@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/golangci/golangci-lint/v2/pkg/report"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
+	"github.com/mirecl/golangci-lint/v2/pkg/report"
+	"github.com/mirecl/golangci-lint/v2/pkg/result"
 )
 
 // JSON prints issues in a JSON representation.

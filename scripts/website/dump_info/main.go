@@ -9,12 +9,12 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/v2/pkg/result/processors"
-	"github.com/golangci/golangci-lint/v2/scripts/website/types"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters"
+	"github.com/mirecl/golangci-lint/v2/pkg/lint/linter"
+	"github.com/mirecl/golangci-lint/v2/pkg/lint/lintersdb"
+	"github.com/mirecl/golangci-lint/v2/pkg/result/processors"
+	"github.com/mirecl/golangci-lint/v2/scripts/website/types"
 )
 
 func main() {

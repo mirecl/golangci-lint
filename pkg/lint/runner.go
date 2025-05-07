@@ -8,17 +8,17 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/golangci/golangci-lint/v2/internal/errorutil"
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/fsutils"
-	"github.com/golangci/golangci-lint/v2/pkg/goformatters"
-	"github.com/golangci/golangci-lint/v2/pkg/goutil"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/v2/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/v2/pkg/logutils"
-	"github.com/golangci/golangci-lint/v2/pkg/result"
-	"github.com/golangci/golangci-lint/v2/pkg/result/processors"
-	"github.com/golangci/golangci-lint/v2/pkg/timeutils"
+	"github.com/mirecl/golangci-lint/v2/internal/errorutil"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/fsutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/goformatters"
+	"github.com/mirecl/golangci-lint/v2/pkg/goutil"
+	"github.com/mirecl/golangci-lint/v2/pkg/lint/linter"
+	"github.com/mirecl/golangci-lint/v2/pkg/lint/lintersdb"
+	"github.com/mirecl/golangci-lint/v2/pkg/logutils"
+	"github.com/mirecl/golangci-lint/v2/pkg/result"
+	"github.com/mirecl/golangci-lint/v2/pkg/result/processors"
+	"github.com/mirecl/golangci-lint/v2/pkg/timeutils"
 )
 
 type processorStat struct {

@@ -6,8 +6,8 @@ import (
 	"github.com/tetafro/godot"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/v2/pkg/config"
-	"github.com/golangci/golangci-lint/v2/pkg/goanalysis"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/goanalysis"
 )
 
 const linterName = "godot"

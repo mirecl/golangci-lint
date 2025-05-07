@@ -3,7 +3,7 @@ package testdata
 
 import (
 	"fmt" // want "File is not properly formatted"
-	"github.com/golangci/golangci-lint/v2/pkg/config"
+	"github.com/mirecl/golangci-lint/v2/pkg/config"
 )
 
 func Bar() {
