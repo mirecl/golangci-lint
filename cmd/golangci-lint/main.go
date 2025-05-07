@@ -47,7 +47,7 @@ func createBuildInfo() commands.BuildInfo {
 		return info
 	}
 
-	info.Version = buildInfo.Main.Version
+	info.Version = fmt.Sprintf("%s+lambda", buildInfo.Main.Version)
 
 	var revision string
 	var modified string
